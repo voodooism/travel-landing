@@ -1,4 +1,4 @@
-## [Travel-landing](https://github.com/voodooism/travel-landing)
+## [Travel-landing](https://voodooism.github.io/travel-landing)
 A responsive HTML/CSS mockup for a travel agency. 
 This is my first project that I build studying HTML and CSS technologies.
 Below I give a list of technologies, tools, and features that I used:
