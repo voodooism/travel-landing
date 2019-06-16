@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
     //Smooth scroll to navigation link target in the navigation menu
-    const navLinks = document.querySelectorAll('.js-navigation__link');
-    navLinks.forEach((element) => element.addEventListener('click', scrollToTarget));
-
     const scrollToTarget = (event) => {
         event.preventDefault();
 
@@ -16,7 +13,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         });
     };
 
-    
+    const navLinks = document.querySelectorAll('.js-navigation__link');
+    navLinks.forEach((element) => element.addEventListener('click', scrollToTarget));
 
     //Turn off the pop-up by clicking outside its contents
     const popup = document.getElementById('popup');
